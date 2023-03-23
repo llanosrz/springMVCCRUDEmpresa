@@ -1,4 +1,4 @@
-package com.example.services;
+package com.example.Empresa.services;
 
 public interface EmpleadoService {
     

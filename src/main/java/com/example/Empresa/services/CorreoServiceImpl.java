@@ -1,4 +1,4 @@
-package com.example.services;
+package com.example.Empresa.services;
 
 public class CorreoServiceImpl implements CorreoService{
     

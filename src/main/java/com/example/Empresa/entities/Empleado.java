@@ -1,4 +1,4 @@
-package com.example.entities;
+package com.example.Empresa.entities;
 
 import java.io.Serializable;
 import java.time.LocalDate;
