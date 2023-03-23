@@ -26,7 +26,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Departamento implements Serializable {
-    
+    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -35,7 +36,5 @@ public class Departamento implements Serializable {
     @Size(max = 25, min = 4)
     private String nombre;
 
-    @OneToMany(fetch = FetchType.LAZY, 
-    cascade = CascadeType.PERSIST, mappedBy = "departamento")
-    private List<Empleado> empleados;
+    
 }
